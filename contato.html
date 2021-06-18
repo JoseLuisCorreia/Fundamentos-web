@@ -7,20 +7,35 @@
     <title>Contato</title>
 </head>
 <body>
-    <li><a href="index.html">Home</a></li>
-    <h1>Entre em contato comigo</h1>
+
+    <link rel="stylesheet" href="assets/css/Style.css">
 
 
-<form>
+
+    <Ul id="menu">
+
+        <li><a href="index.html">Home</a></li>
+
+        
+    </Ul>
+
+
+  
+    <h1 class="P-30">Entre em contato comigo</h1>
+
+
+<form class="P-30">
 
 <label for="nome">Nome:</label><br>
-<input type="text" id="nome">
+<input type="text" id="nome" onkeyup="validaNome()">
+<br>
 <br>
 <label for="e-mail">E-mail:</label><br>
-<input type="email" id="e-mail">
+<input type="email" id="email">
+<br>
 <br>
 <label for="assunto">Assunto:</label><br>
-<textarea name="assunto" id="assunto" cols="80" rows="20"></textarea>
+<textarea name="assunto" id="assuntoo" cols="80" rows="15"></textarea>
 <br>
 <button>Enviar</button>
 <br>
@@ -29,15 +44,18 @@
 <p>Rua 13 de Maio, 1947</p>
 <p>São Paulo - SP</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14621.798838021037!2d-46.660878950000004!3d-23.62406065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1623882093966!5m2!1spt-BR!2sbr" 
-width="500" 
-height="350" 
-style="border:0;" 
-allowfullscreen="" 
-loading="lazy"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9414016492233!2d-46.645713485542814!3d-23.570547967815543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ba0542596d%3A0x268bf60fc6e5361c!2sR.%20Treze%20de%20Maio%2C%201947%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001327-001!5e0!3m2!1spt-BR!2sbr!4v1624028266099!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
 </form>
+
+<footer>
+    Todos os direitos reservados: José Correia &copy;
+
+</footer>
+
+<script src="./assets/javaScript.js/script.js"></script>
 
 
 </body>
